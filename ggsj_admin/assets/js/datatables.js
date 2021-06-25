@@ -26,7 +26,7 @@
                 "sLengthMenu": "_MENU_ ",
                 "sInfo": "Showing <b>_START_ to _END_</b> of _TOTAL_ entries"
             },
-            "iDisplayLength": 5
+            "iDisplayLength": 10 //210625 admin 리스트 변경
         };
 
         table.dataTable(settings);
