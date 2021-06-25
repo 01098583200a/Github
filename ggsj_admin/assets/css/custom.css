@@ -1,11 +1,30 @@
 /* COMMON */
-body, h1, h2, h3, h4, h5, h6 {font-family:'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; letter-spacing:-.8px;}
+body, h1, h2, h3, h4, h5, h6, label {font-family:'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; letter-spacing:-.8px;}
 p {letter-spacing:-.8px;}
 .color-gray1 {color:#a6a6a6 !important;}
+.color-gray2 {color:#969696 !important;}
+.color-gray3 {color:#626262 !important;}
 .btn  {font-family:'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; letter-spacing:-.8px; font-size:13px; }
 .btn.btn-default {background:#b0b5b9; padding:10px 30px; color:#fff !important; border:0 none;}
 .btn.btn-default:hover {background:#34bac4;}
 .btn-default:not(:disabled):not(.disabled):active:hover, .btn-default.active, .btn-default:active, .btn-default.active:focus, .btn-default:active:focus {border:0 none !important;}
+.mont {font-family: 'Montserrat', 'Noto Sans KR', sans-serif !important;}
+.opacity-06 {opacity:.6;}
+
+
+/* ADMIN-LOGIN */
+.login-wrapper {background:url('../img/login/login-bg.jpg') no-repeat;}
+.login-wrapper .bg-caption {position:relative; top:50%; transform:translateY(-50%); width:100%;}
+.login-wrapper .bg-caption h1 {font-size:36px; line-height:1.4;}
+.login-wrapper .login-container {width:600px;}
+.login-wrapper .login-container .login-loc {position:relative; top:45%; transform:translateY(-50%);}
+.login-wrapper .login-container .form-group-default.focused {border:1px solid #34bac4 !important;}
+.login-wrapper .login-container .form-group-default.has-error label {color:#34bac4; font-size:12px; letter-spacing: 0;}
+.login-wrapper .login-container label.error {color:#34bac4;}
+.login-wrapper .login-container .form-control {font-family:'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; letter-spacing:-.8px; font-size:13px; }
+.login-wrapper .login-container .change_pw {color:#34bac4;}
+.login-wrapper .login-container .btn-primary, .login-wrapper .login-container .btn-primary:focus {background-color:#34bac4 !important; border:0 none !important; padding:10px 50px;}
+.login-wrapper .login-container .login-footer {left:0; width:100%; padding:0 50px;}
 
 /* ADMIN-HOME */
 .page-sidebar {width:220px;}
@@ -46,6 +65,13 @@ table.dataTable thead .trash_ico:after {display:none;}
 	body.menu-behind .page-sidebar {transform:translate(210px, 0) !important; -webkit-transform:translate(210px, 0) !important; -ms-transform:translate(210px, 0) !important;}
 }
 
+@media (max-width:1366px){
+	.login-wrapper .bg-pic {width:50%;}
+	.login-wrapper .bg-caption {padding-right:50px;}
+	.login-wrapper .bg-caption br {display:none;}
+	.login-wrapper .login-container {width:50%;}
+}
+
 @media (max-width:991px){
 .page-container .page-content-wrapper .content {padding-left:0; padding-top:50px; width:100%; }
 body.fixed-header .header {display:flex;}
@@ -61,6 +87,9 @@ body.fixed-header .header {display:flex;}
 }
 
 @media (max-width:767px){
+	
+	.login-wrapper .bg-pic {display: none;}
+	.login-wrapper .login-container {width:100%;}
 	.page-container .page-content-wrapper .content {padding-bottom:0;}
 
 }
