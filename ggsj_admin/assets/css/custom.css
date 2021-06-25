@@ -3,11 +3,12 @@ body, h1, h2, h3, h4, h5, h6 {font-family:'Noto Sans KR', "Inter UI", -apple-sys
 p {letter-spacing:-.8px;}
 .color-gray1 {color:#a6a6a6 !important;}
 .btn  {font-family:'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; letter-spacing:-.8px; font-size:13px; }
-.btn.btn-default {background:#b0b5b9; padding:10px 30px; color:#fff !important; width:100%; border:0 none;}
+.btn.btn-default {background:#b0b5b9; padding:10px 30px; color:#fff !important; border:0 none;}
 .btn.btn-default:hover {background:#34bac4;}
 .btn-default:not(:disabled):not(.disabled):active:hover, .btn-default.active, .btn-default:active, .btn-default.active:focus, .btn-default:active:focus {border:0 none !important;}
 
 /* ADMIN-HOME */
+.page-sidebar {width:220px;}
 .page-sidebar .sidebar-menu .menu-items li:hover > a, .page-sidebar .sidebar-menu .menu-items li.open > a, .page-sidebar .sidebar-menu .menu-items li.active > a {color:#329fa8;}
 .page-sidebar .sidebar-menu .menu-items li:hover > .icon-thumbnail, .page-sidebar .sidebar-menu .menu-items li.open > .icon-thumbnail, .page-sidebar .sidebar-menu .menu-items li.active > .icon-thumbnail {color:#329fa8;}
 .page-sidebar .sidebar-menu .menu-items > li > a {font-family:'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;}
@@ -23,7 +24,7 @@ p {letter-spacing:-.8px;}
 .page-sidebar .sidebar-menu .util_user .user_thumb .dropdown-menu .logout {color:#000;}
 .page-container .page-content-wrapper .content {padding-top:30px;}
 body.fixed-header .header {display:none;}
-.page-container .page-content-wrapper .content {padding-left:250px; width:calc(100% - 30px);}
+.page-container .page-content-wrapper .content {padding-left:190px; width:calc(100% - 30px);}
 table.dataTable thead .trash_ico:after {display:none;}
 .card.board_internal .card-body thead tr th {font-family:'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; letter-spacing:-.8px; font-size:13px; color:#626262;}
 .card.board_internal .card-body td a {color:#626262;}
